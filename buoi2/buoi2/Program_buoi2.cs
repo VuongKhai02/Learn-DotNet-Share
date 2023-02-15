@@ -209,9 +209,9 @@ namespace buoi2
             //    Console.WriteLine();
             //}
 
-            for (int i = 5; i >= 1; i--)
+            for (int i = 7; i >= 1; i--)
             {
-                for (int j = 0; j < 5-i; j++)
+                for (int j = 0; j < 7-i; j++)
                 {
                     Console.Write(" ");
                 }
@@ -223,15 +223,23 @@ namespace buoi2
                 Console.WriteLine();
             }
 
-            for (int i = 1; i <= 5; i++)
+            for (int i = 1; i <= 7; i++)
             {
-                for(int j = i; j < 5; j++)
+                for(int j = i; j < 7; j++)
                 {
                     Console.Write(" ");
                 }
+                    int k = i;
                 for(int j = 1; j <= (2*i)-1; j++)
                 {
-                    Console.Write("*");
+                    Console.Write(k);
+                    if ( k == (2*i)-1 )
+                    {
+                        k--;
+                    }
+                    else
+                        k++;
+
                 }
                 Console.WriteLine();    
             }
