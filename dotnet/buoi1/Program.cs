@@ -52,44 +52,43 @@ namespace buoi1
             //Console.WriteLine("TRẠNG THÁI: " + status);
             //Console.WriteLine("Sau khi convert: " + numm);
 
-            bool isQuit = false;
-            while (isQuit == false)
-            {
-                Console.WriteLine("Nhập số: ");
-                int.TryParse(Console.ReadLine(), out int num);
+            //bool isQuit = false;
+            //while (isQuit == false)
+            //{
+            //    Console.WriteLine("Nhập số: ");
+            //    int.TryParse(Console.ReadLine(), out int num);
 
-                Console.Write("Sô bạn vừa nhập là: " + num + " và đó là số: ");
-                Console.WriteLine(num % 2 == 0 ? "Chẵn" : "Lẻ");
+            //    Console.Write("Sô bạn vừa nhập là: " + num + " và đó là số: ");
+            //    Console.WriteLine(num % 2 == 0 ? "Chẵn" : "Lẻ");
 
-                bool isValid = false;
-                while(isValid == false)
-                {
-                    Console.WriteLine("Bạn muốn nhập tiếp?  (c/k? ");
-                    string ans = Console.ReadLine();
-                    if (ans == "c")
-                    {
-                        isQuit = false;
-                        isValid = true;
-                    }
-                    else if (ans == "k")
-                    {
-                        isValid = true;
-                        isQuit = true;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Vui lòng nhập đúng câu trả lời (c/k)?");
-                        isValid = false;    
-                    }
-                }
-            }
+            //    bool isValid = false;
+            //    while(isValid == false)
+            //    {
+            //        Console.WriteLine("Bạn muốn nhập tiếp?  (c/k? ");
+            //        string ans = Console.ReadLine();
+            //        if (ans == "c")
+            //        {
+            //            isQuit = false;
+            //            isValid = true;
+            //        }
+            //        else if (ans == "k")
+            //        {
+            //            isValid = true;
+            //            isQuit = true;
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Vui lòng nhập đúng câu trả lời (c/k)?");
+            //            isValid = false;    
+            //        }
+            //    }
+            //}
 
-            //Q&A: Hỏi a Dũng
-            //Console.WriteLine("Nhập số: ");
-            //var isBool = bool.TryParse(Console.ReadLine(), out bool num);
+            Console.WriteLine("Nhập số: ");
+            var isBool = bool.TryParse(Console.ReadLine(), out bool num);
 
-            //Console.Write("Trạng thái: " + isBool);
-            //Console.Write("Sô bạn vừa nhập là: " + num);
+            Console.Write("Trạng thái: " + isBool);
+            Console.Write("Sô bạn vừa nhập là: " + num);
 
         }
     }
