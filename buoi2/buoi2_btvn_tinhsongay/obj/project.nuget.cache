@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UQknA2y/JyhU83X3MocwUem6LtCpQgB9nb/8+Ukmz5UwOMw7dFD6b+H+qir5oGPEgEOVUCbMEL8ewh17gxgsZQ==",
+  "success": true,
+  "projectFilePath": "D:\\DEV2207\\DEV_BACKEND\\Learn-DotNet-Share\\buoi2\\buoi2_btvn_tinhsongay\\buoi2_btvn_tinhsongay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VUONG KHAI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
+  ],
+  "logs": []
+}

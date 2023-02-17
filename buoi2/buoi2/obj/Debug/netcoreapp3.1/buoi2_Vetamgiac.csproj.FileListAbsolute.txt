@@ -1,0 +1,14 @@
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\bin\Debug\netcoreapp3.1\buoi2_Vetamgiac.exe
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\bin\Debug\netcoreapp3.1\buoi2_Vetamgiac.deps.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\bin\Debug\netcoreapp3.1\buoi2_Vetamgiac.runtimeconfig.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\bin\Debug\netcoreapp3.1\buoi2_Vetamgiac.runtimeconfig.dev.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\bin\Debug\netcoreapp3.1\buoi2_Vetamgiac.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\bin\Debug\netcoreapp3.1\buoi2_Vetamgiac.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\obj\Debug\netcoreapp3.1\buoi2_Vetamgiac.csproj.AssemblyReference.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\obj\Debug\netcoreapp3.1\buoi2_Vetamgiac.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\obj\Debug\netcoreapp3.1\buoi2_Vetamgiac.AssemblyInfoInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\obj\Debug\netcoreapp3.1\buoi2_Vetamgiac.AssemblyInfo.cs
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\obj\Debug\netcoreapp3.1\buoi2_Vetamgiac.csproj.CoreCompileInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\obj\Debug\netcoreapp3.1\buoi2_Vetamgiac.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\obj\Debug\netcoreapp3.1\buoi2_Vetamgiac.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2\obj\Debug\netcoreapp3.1\buoi2_Vetamgiac.genruntimeconfig.cache

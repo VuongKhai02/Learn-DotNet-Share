@@ -1,0 +1,14 @@
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\bin\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.exe
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\bin\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.deps.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\bin\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.runtimeconfig.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\bin\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.runtimeconfig.dev.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\bin\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\bin\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\obj\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.csproj.AssemblyReference.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\obj\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\obj\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.AssemblyInfoInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\obj\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.AssemblyInfo.cs
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\obj\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.csproj.CoreCompileInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\obj\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\obj\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\buoi2\buoi2_btvn_tinhsongay\obj\Debug\netcoreapp3.1\buoi2_btvn_tinhsongay.genruntimeconfig.cache
