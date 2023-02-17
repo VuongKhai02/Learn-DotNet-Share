@@ -209,9 +209,25 @@ namespace buoi2
             //    Console.WriteLine();
             //}
 
-            for (int i = 7; i >= 1; i--)
+            // Vẽ tam giác
+            for(int i = 1; i <= 9; i++)
             {
-                for (int j = 0; j < 7-i; j++)
+
+                for (int j = 0; j < 10-i; j++)
+                {
+                    Console.Write(" ");
+                }
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();   
+            }
+
+            //Vẽ tam giác cân ngược
+            for (int i = 9; i >= 1; i--)
+            {
+                for (int j = 0; j < 9-i; j++)
                 {
                     Console.Write(" ");
                 }
@@ -222,10 +238,10 @@ namespace buoi2
                 }
                 Console.WriteLine();
             }
-
-            for (int i = 1; i <= 7; i++)
+            //Vẽ tam giác cân(test)
+            for (int i = 1; i <= 9; i++)
             {
-                for(int j = i; j < 7; j++)
+                for(int j = i; j < 9; j++)
                 {
                     Console.Write(" ");
                 }
@@ -233,6 +249,7 @@ namespace buoi2
                 for(int j = 1; j <= (2*i)-1; j++)
                 {
                     Console.Write(k);
+                    
                     if ( k == (2*i)-1 )
                     {
                         k--;
@@ -242,6 +259,42 @@ namespace buoi2
 
                 }
                 Console.WriteLine();    
+            }
+            //Vẽ tam giác cân chuẩn
+            int socanhien = 1;
+            int kc = 10;
+            for(int i = 1; i <= 10; i++)
+            {
+                for (int j = i; j < 10; j++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int j = 0; j < socanhien / 2; j++)
+                {
+                    if(j + i >= 10)
+                    {
+                        Console.Write(j + i -10);
+                    }
+                    else
+                    {
+                        Console.Write(j + i);
+                    }
+
+                }
+                for(int j = socanhien/2; j>=0; j--)
+                {
+                    if (j + i >= 10)
+                    {
+                        Console.Write(j + i - 10);
+                    }
+                    else
+                    {
+                        Console.Write(j + i);
+                    }
+                }
+                Console.WriteLine();
+                socanhien += 2;
             }
 
             //While

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEV2207\\DEV_BACKEND\\Learn-DotNet-Share\\buoi2\\buoi2\\buoi2.csproj",
-      "projectName": "buoi2",
-      "projectPath": "D:\\DEV2207\\DEV_BACKEND\\Learn-DotNet-Share\\buoi2\\buoi2\\buoi2.csproj",
+      "projectUniqueName": "D:\\DEV2207\\DEV_BACKEND\\Learn-DotNet-Share\\buoi2\\buoi2\\buoi2_Vetamgiac.csproj",
+      "projectName": "buoi2_Vetamgiac",
+      "projectPath": "D:\\DEV2207\\DEV_BACKEND\\Learn-DotNet-Share\\buoi2\\buoi2\\buoi2_Vetamgiac.csproj",
       "packagesPath": "C:\\Users\\VUONG KHAI\\.nuget\\packages\\",
       "outputPath": "D:\\DEV2207\\DEV_BACKEND\\Learn-DotNet-Share\\buoi2\\buoi2\\obj\\",
       "projectStyle": "PackageReference",
