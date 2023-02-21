@@ -14,16 +14,15 @@ namespace buoi2_btvn_lab2_8_TinhlsNam
             Console.WriteLine("Chương trình tính lãi suất ngân hàng: ");
 
             Console.WriteLine("Nhập số tiền: ");
-            var soTien = double.Parse(Console.ReadLine());
+            Decimal.TryParse(Console.ReadLine(), out var soTien);
             Console.WriteLine("Nhập lãi suất(năm) %:");
-            var lsNam = double.Parse(Console.ReadLine());
+            double.TryParse(Console.ReadLine(), out var lsNam);
             Console.WriteLine("Nhập số tháng gửi:");
-            var soThang = double.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out var soThang);
 
             //Tính tóan
             double lsThang = (lsNam / 12) / 100;
-            double tienLaiCuoiKy = soTien;
-            bool first = true;
+            double tienLaiCuoiKy = (double)soTien;
             Console.WriteLine("Tiền lãi từ tháng 1 đến tháng {0} lần lượt là: ", soThang);
 
             for (int i = 1; i <= soThang; i++)
@@ -31,22 +30,9 @@ namespace buoi2_btvn_lab2_8_TinhlsNam
                 double tienLaiThang = tienLaiCuoiKy * lsThang;
                 for (int j = i; j == i; j++)
                 {
-                    if (first)
-                    {
-                        Console.Write(i + "-" + tienLaiCuoiKy + "-" + tienLaiThang);
-                        first = false;
-                        tienLaiCuoiKy += tienLaiThang; //ok
-                    }
-                    else
-                    {
-                        //tienLaiCuoiKy += tienLaiThang; 
-
-                        //Console.Write(i + "-" + tienLaiCuoiKy + "-" + tienLaiThang);
-
                         Console.Write(i + "-" + tienLaiCuoiKy + "-" + tienLaiThang);//ok
                         tienLaiCuoiKy += tienLaiThang;//ok
                         Console.WriteLine();
-                    }
                 }
                 Console.WriteLine();
             }

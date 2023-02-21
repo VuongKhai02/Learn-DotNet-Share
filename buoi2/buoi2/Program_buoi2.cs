@@ -262,7 +262,6 @@ namespace buoi2
             }
             //Vẽ tam giác cân chuẩn
             int socanhien = 1;
-            int kc = 10;
             for(int i = 1; i <= 10; i++)
             {
                 for (int j = i; j < 10; j++)
@@ -295,6 +294,26 @@ namespace buoi2
                 }
                 Console.WriteLine();
                 socanhien += 2;
+            }
+
+
+            int soGiua = 1;
+            for(int i = 1; i<= 10; i++)
+            {
+                for(int k = i; k < 10; k++)
+                {
+                    Console.Write(" ");
+                }
+                for(int j = 0; j < soGiua/2; j++)
+                {
+                    Console.Write(i+j);
+                }
+                for (int j = soGiua / 2; j >= 0; j--)
+                {
+                    Console.Write(i + j);
+                }
+                soGiua += 2;
+                Console.WriteLine();
             }
 
             //While

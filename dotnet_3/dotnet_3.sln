@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet_3", "dotnet_3\dotnet_3.csproj", "{674A130C-761E-478D-82C8-B8475942E9C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet_3_bai3.1", "dotnet_3_bai3.1\dotnet_3_bai3.1.csproj", "{91420B76-989E-4EEA-96EA-EDE9A5ED5D34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{674A130C-761E-478D-82C8-B8475942E9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674A130C-761E-478D-82C8-B8475942E9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674A130C-761E-478D-82C8-B8475942E9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674A130C-761E-478D-82C8-B8475942E9C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91420B76-989E-4EEA-96EA-EDE9A5ED5D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91420B76-989E-4EEA-96EA-EDE9A5ED5D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91420B76-989E-4EEA-96EA-EDE9A5ED5D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91420B76-989E-4EEA-96EA-EDE9A5ED5D34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5AF7C3E-D335-4BA7-832A-A24409EDB895}
+	EndGlobalSection
+EndGlobal
