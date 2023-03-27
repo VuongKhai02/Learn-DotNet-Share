@@ -1,0 +1,14 @@
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\bin\Debug\netcoreapp3.1\dotnet6_Generic.exe
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\bin\Debug\netcoreapp3.1\dotnet6_Generic.deps.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\bin\Debug\netcoreapp3.1\dotnet6_Generic.runtimeconfig.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\bin\Debug\netcoreapp3.1\dotnet6_Generic.runtimeconfig.dev.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\bin\Debug\netcoreapp3.1\dotnet6_Generic.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\bin\Debug\netcoreapp3.1\dotnet6_Generic.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\obj\Debug\netcoreapp3.1\dotnet6_Generic.csproj.AssemblyReference.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\obj\Debug\netcoreapp3.1\dotnet6_Generic.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\obj\Debug\netcoreapp3.1\dotnet6_Generic.AssemblyInfoInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\obj\Debug\netcoreapp3.1\dotnet6_Generic.AssemblyInfo.cs
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\obj\Debug\netcoreapp3.1\dotnet6_Generic.csproj.CoreCompileInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\obj\Debug\netcoreapp3.1\dotnet6_Generic.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\obj\Debug\netcoreapp3.1\dotnet6_Generic.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Generic\obj\Debug\netcoreapp3.1\dotnet6_Generic.genruntimeconfig.cache

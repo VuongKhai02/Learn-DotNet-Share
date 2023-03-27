@@ -1,0 +1,14 @@
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\bin\Debug\netcoreapp3.1\dotnet6_ArrayList.exe
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\bin\Debug\netcoreapp3.1\dotnet6_ArrayList.deps.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\bin\Debug\netcoreapp3.1\dotnet6_ArrayList.runtimeconfig.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\bin\Debug\netcoreapp3.1\dotnet6_ArrayList.runtimeconfig.dev.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\bin\Debug\netcoreapp3.1\dotnet6_ArrayList.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\bin\Debug\netcoreapp3.1\dotnet6_ArrayList.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\obj\Debug\netcoreapp3.1\dotnet6_ArrayList.csproj.AssemblyReference.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\obj\Debug\netcoreapp3.1\dotnet6_ArrayList.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\obj\Debug\netcoreapp3.1\dotnet6_ArrayList.AssemblyInfoInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\obj\Debug\netcoreapp3.1\dotnet6_ArrayList.AssemblyInfo.cs
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\obj\Debug\netcoreapp3.1\dotnet6_ArrayList.csproj.CoreCompileInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\obj\Debug\netcoreapp3.1\dotnet6_ArrayList.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\obj\Debug\netcoreapp3.1\dotnet6_ArrayList.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_ArrayList\obj\Debug\netcoreapp3.1\dotnet6_ArrayList.genruntimeconfig.cache

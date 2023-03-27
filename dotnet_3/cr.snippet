@@ -1,0 +1,48 @@
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>#if</Title>
+			<Shortcut>#if</Shortcut>
+			<Description>Code snippet for #if</Description>
+			<Author>Microsoft Corporation</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+				<SnippetType>SurroundsWith</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>expression</ID>
+					<ToolTip>Preprocessor expression to evaluate</ToolTip>
+					<Default>Console.Readline()</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[#if $expression$
+		$selected$ $end$ 
+	#endif]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>-->
+
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>Console.ReadLine</Title>
+    <Shortcut>readline</Shortcut>
+    <Description>Reads the next line of characters from the standard input stream.</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal Editable="false">
+        <ID>System</ID>
+        <Function>SimpleTypeName(global::System.Console)</Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp"><![CDATA[$System$.ReadLine()$end$]]></Code>
+  </Snippet>
+</CodeSnippet>

@@ -8,10 +8,22 @@ namespace dotnet_3
     {
         static void Main(string[] args)
         {
+            /*
+             VD: Math.sqrt();
+            Math: Là 1 đối tượng ( Cũng như person ) 
+            sqrt(): là các phương thức
+
+            Những biến mà sau này thường dùng để thống kê thì nên để dạng số (dễ thống kê)
+            VD: gender(Giới tính) Nên để là 0 hoặc 1 hoặc 2
+
+            Khai báo hàm: 
+            1-2-3: Phạm vi truy cập(public...) - (Kiểu trả về(void,int..)) -(Tên hàm viết hoa(CaculateAge)
+
+             */
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.UTF8;
-
             var person  = new Person();
+            
             person.Gender = 1;
             person.dob = new DateTime(2000, 11, 20);
             //2

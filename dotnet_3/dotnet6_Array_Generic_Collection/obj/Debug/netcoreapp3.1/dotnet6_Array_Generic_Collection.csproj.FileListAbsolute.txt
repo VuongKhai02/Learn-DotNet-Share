@@ -1,0 +1,14 @@
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\bin\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.exe
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\bin\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.deps.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\bin\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.runtimeconfig.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\bin\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.runtimeconfig.dev.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\bin\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\bin\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\obj\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.csproj.AssemblyReference.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\obj\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\obj\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.AssemblyInfoInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\obj\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.AssemblyInfo.cs
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\obj\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.csproj.CoreCompileInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\obj\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\obj\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet6_Array_Generic_Collection\obj\Debug\netcoreapp3.1\dotnet6_Array_Generic_Collection.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sdRoxQjXe0Zz0/tkurILtiJxFiNGJWxuIocpgurk5DDwWrIYOeajYPT5Jp9X6g9ANwfRy7uP6IEBKaDDKKkqaQ==",
+  "success": true,
+  "projectFilePath": "D:\\DEV2207\\DEV_BACKEND\\Learn-DotNet-Share\\dotnet_3\\dotnet_5_bai4.1_TinhDaHinh\\dotnet_5_bai4.1_TinhDaHinh.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VUONG KHAI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
+  ],
+  "logs": []
+}

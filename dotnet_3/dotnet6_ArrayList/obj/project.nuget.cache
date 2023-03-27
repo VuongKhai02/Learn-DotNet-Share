@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9lWKkZtdMoznVlF4NS5PU4/oLsgZjHUPJZ72WE0mF4autq5eY9lm3Fm6oT+ke+YNpYAa7jADUJlm96t0vlUNMw==",
+  "success": true,
+  "projectFilePath": "D:\\DEV2207\\DEV_BACKEND\\Learn-DotNet-Share\\dotnet_3\\dotnet6_ArrayList\\dotnet6_ArrayList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VUONG KHAI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\bin\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.exe
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\bin\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.deps.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\bin\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.runtimeconfig.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\bin\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.runtimeconfig.dev.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\bin\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\bin\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\obj\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.csproj.AssemblyReference.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\obj\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\obj\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.AssemblyInfoInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\obj\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.AssemblyInfo.cs
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\obj\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.csproj.CoreCompileInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\obj\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\obj\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5_bai4.1_TinhDaHinh\obj\Debug\netcoreapp3.1\dotnet_5_bai4.1_TinhDaHinh.genruntimeconfig.cache

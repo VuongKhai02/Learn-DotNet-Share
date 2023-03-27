@@ -1,0 +1,73 @@
+﻿@Model
+@{
+    ViewData["Title"] = "Fruit";
+}
+
+<style>
+</style>
+
+
+
+<div style="display: flex; width:80%; margin: auto; flex-wrap:wrap; justify-content:space-between">
+    @*CCtrK + D : auto forrmat*@
+    @{
+        foreach (var item in @Model)
+        {
+            <div style="width:22% ;">
+                <div class="toHover" style="border: 2px solid green; border-radius: 4px;     padding: 12px; ">
+                    <div style="position: relative;     min-height: 278px;">
+                        <div class="onHover" style="">
+                            <div style="
+        text-align: center;
+        padding-top: 50%;
+    ">
+                                <a style="padding:2rem; font-size: 2rem">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </a>
+                                <a href="#" style="padding:2rem; font-size: 2rem">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img class="notHover" width="100%" src="@item.Img" />
+                        <p style="top: 2%;
+                                    right: 1%;
+                                    position: absolute;
+                                    background-color: red;
+                                    border-radius: 8px;
+                                    font-weight: 700;
+                                }">-@item.Discount%</p>
+                    </div>
+                    <div  style="    padding: 1rem 0 0 1rem;">
+                        <h4 style="display:flex">
+                            @{
+                                for (var i = 0; i < item.Rate; i++)
+                                {
+                                    <p><i class="fa-solid fa-star"></i></p>
+                                }
+                            }
+                            (@item.Rate)
+                        </h4>
+                        <h3 style="font-weight: 700">
+                            @item.Name
+                        </h3>
+                        <div style="display: flex">
+                            <p style="padding:0 1rem">
+                                <b>
+                                    <span style="color: green">$</span>@item.NewPrice
+                                </b>
+                            </p>
+                            <p style="text-decoration: line-through; opacity: 0.8">
+                                <i>
+                                    @item.OldPrice
+                                </i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+
+
+</div>

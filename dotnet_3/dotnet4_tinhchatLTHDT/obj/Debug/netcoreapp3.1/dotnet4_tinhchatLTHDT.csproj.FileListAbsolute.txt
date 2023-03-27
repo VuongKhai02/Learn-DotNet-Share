@@ -1,0 +1,14 @@
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\bin\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.exe
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\bin\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.deps.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\bin\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.runtimeconfig.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\bin\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.runtimeconfig.dev.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\bin\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\bin\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\obj\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.csproj.AssemblyReference.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\obj\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\obj\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.AssemblyInfoInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\obj\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.AssemblyInfo.cs
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\obj\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.csproj.CoreCompileInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\obj\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\obj\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet4_tinhchatLTHDT\obj\Debug\netcoreapp3.1\dotnet4_tinhchatLTHDT.genruntimeconfig.cache

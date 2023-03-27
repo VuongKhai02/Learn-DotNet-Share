@@ -1,0 +1,14 @@
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\bin\Debug\netcoreapp3.1\dotnet7_btvnLab05.exe
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\bin\Debug\netcoreapp3.1\dotnet7_btvnLab05.deps.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\bin\Debug\netcoreapp3.1\dotnet7_btvnLab05.runtimeconfig.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\bin\Debug\netcoreapp3.1\dotnet7_btvnLab05.runtimeconfig.dev.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\bin\Debug\netcoreapp3.1\dotnet7_btvnLab05.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\bin\Debug\netcoreapp3.1\dotnet7_btvnLab05.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\obj\Debug\netcoreapp3.1\dotnet7_btvnLab05.csproj.AssemblyReference.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\obj\Debug\netcoreapp3.1\dotnet7_btvnLab05.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\obj\Debug\netcoreapp3.1\dotnet7_btvnLab05.AssemblyInfoInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\obj\Debug\netcoreapp3.1\dotnet7_btvnLab05.AssemblyInfo.cs
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\obj\Debug\netcoreapp3.1\dotnet7_btvnLab05.csproj.CoreCompileInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\obj\Debug\netcoreapp3.1\dotnet7_btvnLab05.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\obj\Debug\netcoreapp3.1\dotnet7_btvnLab05.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet7_btvnLab05\obj\Debug\netcoreapp3.1\dotnet7_btvnLab05.genruntimeconfig.cache

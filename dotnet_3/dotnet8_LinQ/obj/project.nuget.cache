@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aOi8ZDrKS5I5X39kjqQ1aVLBGup/+KojTu1oou31/Z649snjo6oOCxrpG6TAenQNDrJKNtNftdVohMvdZJj5ig==",
+  "success": true,
+  "projectFilePath": "D:\\DEV2207\\DEV_BACKEND\\Learn-DotNet-Share\\dotnet_3\\dotnet8_LinQ\\dotnet8_LinQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VUONG KHAI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
+  ],
+  "logs": []
+}

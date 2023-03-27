@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "dotnet_5_bai4.1_TinhDaHinh/1.0.0": {
+        "runtime": {
+          "dotnet_5_bai4.1_TinhDaHinh.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet_5_bai4.1_TinhDaHinh/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -6,7 +6,10 @@ namespace dotnet_3
 {
     internal class Person
     {
+        // Nếu có {get;set}: Thì là thuộc tính, còn không thì là biến
+        
         //Tên Phương thức phải viết hoa cái đầu
+        
 
         //Private và Static: là readonly, ko thể truy cập được từ class khác
         //Nếu đặt tên biến là private nên có _: vd _name
@@ -17,7 +20,7 @@ namespace dotnet_3
         private string _name;
         public void SetName (string name)
         {
-            //Nếu thỏa mãn thì mới set biến name thỏa mãn thành _name gốc
+            //Nếu thỏa mãn thì mới set tham số truyền vào( name  ) thỏa mãn thành _name gốc
             //if ()
             //{
             //}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HXtTJA5CPaIq7cejppgd9FiRj0o8vmAf3Vn67+O1VjQ3CeOfL1gIPMaE2SqUKWXOdiHES3aA1EnGPKhyrEmOyQ==",
+  "success": true,
+  "projectFilePath": "D:\\DEV2207\\DEV_BACKEND\\Learn-DotNet-Share\\dotnet_3\\dotnet_6_TestIndexer\\dotnet_6_TestIndexer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VUONG KHAI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
+  ],
+  "logs": []
+}

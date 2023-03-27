@@ -1,0 +1,14 @@
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\bin\Debug\netcoreapp3.1\dotnet8_LinQ.exe
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\bin\Debug\netcoreapp3.1\dotnet8_LinQ.deps.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\bin\Debug\netcoreapp3.1\dotnet8_LinQ.runtimeconfig.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\bin\Debug\netcoreapp3.1\dotnet8_LinQ.runtimeconfig.dev.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\bin\Debug\netcoreapp3.1\dotnet8_LinQ.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\bin\Debug\netcoreapp3.1\dotnet8_LinQ.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\obj\Debug\netcoreapp3.1\dotnet8_LinQ.csproj.AssemblyReference.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\obj\Debug\netcoreapp3.1\dotnet8_LinQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\obj\Debug\netcoreapp3.1\dotnet8_LinQ.AssemblyInfoInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\obj\Debug\netcoreapp3.1\dotnet8_LinQ.AssemblyInfo.cs
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\obj\Debug\netcoreapp3.1\dotnet8_LinQ.csproj.CoreCompileInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\obj\Debug\netcoreapp3.1\dotnet8_LinQ.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\obj\Debug\netcoreapp3.1\dotnet8_LinQ.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet8_LinQ\obj\Debug\netcoreapp3.1\dotnet8_LinQ.genruntimeconfig.cache

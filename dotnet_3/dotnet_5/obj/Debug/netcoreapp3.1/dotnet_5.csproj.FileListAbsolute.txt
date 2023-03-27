@@ -1,0 +1,14 @@
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\bin\Debug\netcoreapp3.1\dotnet_5.exe
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\bin\Debug\netcoreapp3.1\dotnet_5.deps.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\bin\Debug\netcoreapp3.1\dotnet_5.runtimeconfig.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\bin\Debug\netcoreapp3.1\dotnet_5.runtimeconfig.dev.json
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\bin\Debug\netcoreapp3.1\dotnet_5.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\bin\Debug\netcoreapp3.1\dotnet_5.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\obj\Debug\netcoreapp3.1\dotnet_5.csproj.AssemblyReference.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\obj\Debug\netcoreapp3.1\dotnet_5.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\obj\Debug\netcoreapp3.1\dotnet_5.AssemblyInfoInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\obj\Debug\netcoreapp3.1\dotnet_5.AssemblyInfo.cs
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\obj\Debug\netcoreapp3.1\dotnet_5.csproj.CoreCompileInputs.cache
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\obj\Debug\netcoreapp3.1\dotnet_5.dll
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\obj\Debug\netcoreapp3.1\dotnet_5.pdb
+D:\DEV2207\DEV_BACKEND\Learn-DotNet-Share\dotnet_3\dotnet_5\obj\Debug\netcoreapp3.1\dotnet_5.genruntimeconfig.cache
