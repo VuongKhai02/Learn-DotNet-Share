@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThucHanh1", "ThucHanh1\Thuc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManager_b2", "StudentManager\StudentManager_b2.csproj", "{8FB391CA-8875-420B-9DA4-7585B6F8CDB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "btvn_FruitManager_b2", "btvn_FruitManager_b2\btvn_FruitManager_b2.csproj", "{80B567F0-DDF7-44BA-9579-958CD4817B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "btvn_FruitManager_b2", "btvn_FruitManager_b2\btvn_FruitManager_b2.csproj", "{80B567F0-DDF7-44BA-9579-958CD4817B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithDatabase_b3", "WorkWithDatabase_b3\WorkWithDatabase_b3.csproj", "{A1CA633C-459C-4207-AC73-028BF098779B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{80B567F0-DDF7-44BA-9579-958CD4817B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80B567F0-DDF7-44BA-9579-958CD4817B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80B567F0-DDF7-44BA-9579-958CD4817B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1CA633C-459C-4207-AC73-028BF098779B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CA633C-459C-4207-AC73-028BF098779B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CA633C-459C-4207-AC73-028BF098779B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CA633C-459C-4207-AC73-028BF098779B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
