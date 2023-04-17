@@ -1,0 +1,47 @@
+﻿<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h4>
+                Thêm mới kêt quả học tập của sinh viên     @Model.StudentName
+            </h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="/Result/AddResult" method="POST">
+                        <div class="mb-3">
+                            <label>
+                                Student Code:
+                            </label>
+                            <input name="StudentCode" value="@Model.StudentCode" type="text" class="form-control" />
+
+                            <div class="mb-3">
+                                <label>Full Name:</label>
+                                <input name="Name" value="@Model.StudentName" type="text" class="form-control" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label>Subject Name:</label>
+
+                                <select class="form-select" name="SubjectId">
+                                    <option value="0">--- Lựa chọn ---</option>
+                                    @foreach (var sub in Model.Subjects)
+                                    {
+                                        <option value="@sub.Id">@sub.Name</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label>Score:</label>
+                                <input name="Score" type="number" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-success" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

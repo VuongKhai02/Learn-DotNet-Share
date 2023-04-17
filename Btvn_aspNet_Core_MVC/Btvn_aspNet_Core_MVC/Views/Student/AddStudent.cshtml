@@ -1,0 +1,56 @@
+﻿<h2>AddSTu</h2>
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h4>Thêm mới thông tinh sinh viên</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="/Student/AddStudent" method="POST">
+                        <div class="mb-3">
+                            <label>
+                                Student Code:
+                            </label>
+                            <input name="Code" type="text" class="form-control" />
+
+                            <div class="mb-3">
+                                <label>Full Name:</label>
+                                <input name="Name" type="text" class="form-control" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label>Address:</label>
+                                <input name="Addr" type="text" class="form-control" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label>Email:</label>
+
+                                <input name="Email" type="text" class="form-control" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label>Phone:</label>
+                                <input name="Phone" type="text" class="form-control" />
+                            </div>
+
+
+                            @*<select class="form-select" name="CategoryId">
+                                <option value="0">--- Lựa chọn ---</option>
+                                @foreach (var cate in Model)
+                                {
+                                    <option value="@cate.Id">@cate.Name</option>
+                                }
+                            </select>*@
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-success" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

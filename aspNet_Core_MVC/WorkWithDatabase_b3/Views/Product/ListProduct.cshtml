@@ -1,0 +1,181 @@
+﻿@model WorkWithDatabase_b3.ViewModel.ProducttViewModel
+@*@model List<Category>*@
+@{
+    ViewData["Title"] = "List Product Page";
+}
+
+<div class="container">
+    @*//Get khi muốn show ra thanh url, post ngược lại*@
+
+    <div class="card-body" >
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="s_name">Tên sản phẩm:</label>
+                    <input class="form-control" type="text" placeholder="Nhập tên" name="name" />
+                </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="s_name">Loại sản phẩm:</label>
+
+                    <select class="form-select" name="categoryId">
+                        <option selected>Tất cả</option>
+                        @{
+
+                            foreach(var item in Model.Categories){
+                                                        <option value="@item.Id">@item.Name</option>
+
+                            }
+                        }
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <form action="/product/listproduct" method="GET">
+
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td colspan="3">
+                        <a href="/product/AddProduct">Thêm mới</a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col">Mã</th>
+                    <th scope="col">Tên</th>
+                    <th scope="col">Giá</th>
+                    <th scope="col">Ảnh</th>
+                    <th scope="col">Ngày tạo</th>
+                    <th scope="col">Ngày cập nhật</th>
+                    <th scope="col">Tạo bởi</th>
+                    <th scope="col">Cập nhật bởi</th>
+                    <th scope="col">Xóa</th>
+                    <th scope="col">Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var stt = (Model.PageNumber - 1) * Model.PageSize + 1;
+
+                    foreach (var obj in Model.Data)
+                    {
+                                                <tr>
+                                                    <td>@stt</td>
+                                                    <td>@obj.Name</td>
+                                                    <td>@obj.Price</td>
+                                                    <td>
+                                                        @*<img src="~/images/sauRieng.jpg" style="width:25%" />*@
+                                                        <img src="@obj.Image" style="width:25%" />
+                                                    </td>
+                                                    <td>@obj.CategoryId</td>
+                                                    <td>@obj.CreateDate.ToString("dd/MM/yyyy")</td>
+                                                    <td>@obj.UpdatedDate.ToString("dd/MM/yyyy")</td>
+                                                    <td>@obj.CreatBy</td>
+                                                    <td>@obj.IsDeleted</td>
+                                                    <td>
+                                                        <a class="btn btn-primary" href="/product/editproduct?id=@obj.id" >Sửa</a>
+                                                        <button type="button" onclick="deletee(@obj.id)" class="btn btn-danger">Xóa</button>
+                                                    </td>
+                                                </tr>
+                        stt++;
+                    }
+                }
+            </tbody>
+
+        </table>
+
+        <div class="d-flex justify-content-between">
+            <div>
+                <div class="d-flex align-items-center">
+                    <select name="pageSize" id="pageSize" class="text-nonwrap">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                    </select>
+                    <span class="text-nonwrap"> Tổng số: @Model.TotalCount  bản ghi</span>
+
+                </div>
+            </div>
+
+
+            <nav aria-label="Page navigation example" class="">
+                <ul class="pagination">
+
+                    @{
+                        if (Model.PageNumber != 1)
+                        {
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#" aria-label="Previous">
+
+
+                                                            <span aria-hidden="true">&laquo;</span>
+                                                            <span onclick="clickPage(@Model.PageNumber-1)" class="sr-only">Previous</span>
+                                                        </a>
+                                                    </li>
+                        }
+                    }
+                    @{
+                        for (int i = 1; i <= Model.PageCount; i++)
+                        {
+                            if (i == Model.PageNumber)
+                            {
+                                                        <li class="page-item active" onclick="clickPage(@i)"><a class="page-link" href="#">@i</a></li>
+                            }
+                            else
+                            {
+                                                        <li class="page-item" onclick="clickPage(@i)"><a class="page-link" href="#">@i</a></li>
+                            }
+                        }
+                    }
+                    @{
+                        if (Model.PageNumber != Model.PageCount)
+                        {
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#" aria-label="Next">
+                                                            <span aria-hidden="true">&raquo;</span>
+                                                            <span onclick="clickPage(@Model.PageNumber+1)" class="sr-only">Next</span>
+                                                        </a>
+                                                    </li>
+                        }
+                    }
+
+                </ul>
+                <input value="@Model.PageNumber" name="pageNumber" type="hidden" />
+            </nav>
+
+        </div>
+
+    </form>
+</div>
+
+@section scripts
+    {
+    <script>
+        $('#pageSize').val(@Model.PageSize);
+        function clickPage(pageNumber) {
+            $("input[name = 'pageNumber']").val(pageNumber);
+            $("form").submit();
+        }
+
+        $("select[name='pageSize']").change(function () {
+            clickPage(1);
+            $("form").submit();
+        })
+
+        function deletee(id){
+            var check = confirm("Bạn có muốn xóa không?");
+            if(check){
+                window.location.href = "/Product/Delete?id="+id;
+            }
+        }
+
+    </script>
+
+        }
+
+

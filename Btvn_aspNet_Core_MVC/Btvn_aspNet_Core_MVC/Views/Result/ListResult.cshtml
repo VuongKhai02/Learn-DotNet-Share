@@ -1,0 +1,125 @@
+﻿<form method="GET" action="/student/liststudent">
+    <div>
+        <a href="/student/liststudent">Back</a>
+    </div>
+    <div>
+        <a style="margin: 1rem 2rem;float: right;" class="btn btn-primary" href="/result/addresult?Code=@Model.StudentCode">Thêm mới</a>
+    </div>
+    <table class="table table-striped">
+        <h4>Kết quả học tập của sinh viên <strong>@Model.StudentName</strong> </h4>
+        <thead>
+            <tr>
+                <th scope="col">STT</th>
+                <th scope="col">Student Code</th>
+                <th scope="col">Full Name</th>
+                <th scope="col">Subject Name</th>
+                <th scope="col">Score</th>
+                <th scope="col">Create By</th>
+                <th scope="col">Create Date</th>
+                <th scope="col">Update Date</th>
+                <th scope="col">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                //(Model.PageNumber - 1) * Model.PageSize + 1
+                var stt = 1;
+                foreach (var obj in Model.Results)
+                {
+                    <tr>
+                        <td>@stt</td>
+                        <td>@obj.StudentCode</td>
+                        <td>@obj.StudentName</td>
+                        <td>@obj.SubjectName</td>
+                        <td>@obj.Score</td>
+                        <td>@obj.CreateBy</td>
+                        <td>@obj.CreateDate</td>
+                        <td>@obj.UpdatedDate</td>
+                        <td>
+                            <div>
+                                <a class="btn btn-primary">Sửa</a>
+                                <a class="btn btn-danger">Xóa</a>
+                            </div>
+                        </td>
+                    </tr>
+                    stt++;
+                }
+            }
+        </tbody>
+    </table>@*
+    <div class="d-flex justify-content-between">
+        <div>
+            <div class="d-flex align-items-center">
+                <select name="pageSize" id="pageSize" class="text-nonwrap">
+                    <option value="1">1/page</option>
+                    <option value="2">2/page </option>
+                    <option value="3">3/page </option>
+                    <option value="@Model.TotalCount"> All </option>
+                </select>
+                <span class="text-nonwrap"> Tổng số: @Model.TotalCount  bản ghi</span>
+
+            </div>
+        </div>
+        <nav aria-label="Page navigation example" class="">
+            <ul class="pagination">
+
+                <li class="page-item">
+                    <a class="page-link" onclick="clickPage(@Model.PageNumber - 1)" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                @{
+                    for (int i = 0; i <= Model.PageCount; i++)
+                    {
+                        if (i == Model.PageNumber)
+                        {
+                            <li class="page-item active "><a onclick="clickPage(@i)" class="page-link">@i</a></li>
+                        }
+                        else
+                        {
+                            <li class="page-item"><a onclick="clickPage(@i)" class="page-link">@i</a></li>
+                        }
+                    }
+                }
+
+                <li class="page-item">
+                    <a class="page-link" onclick="clickPage(@Model.PageNumber +1)" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+            <input value="@Model.PageNumber" type="hidden" name="pageNumber" />
+        </nav>
+    </div>
+*@
+</form>
+@*
+@section scripts
+    {
+
+    <script>
+        $('#pageSize').val(@Model.PageSize);
+        function clickPage(pageNumber) {
+            $("input[name='pageNumber']").val(pageNumber);
+            $("form").submit();
+        }
+
+        $("select[name='pageSize']").change(function () {
+            clickPage(1);
+            $("form").submit();
+        })
+
+        function refresh() {
+            $("input[name='pageNumber']").val(1);
+            $("select[name='pageSize']").val(@Model.TotalCount);
+            $("input[name='nameSearch']").val("");
+            $("input[name='codeSearch']").val("");
+            $("input[name='phoneSearch']").val("");
+            $("form").submit();
+        }
+    </script>
+    }
+
+*@

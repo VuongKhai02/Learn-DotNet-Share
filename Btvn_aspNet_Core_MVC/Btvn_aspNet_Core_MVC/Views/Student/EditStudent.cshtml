@@ -1,0 +1,67 @@
+﻿
+<div class="container">
+    <div>
+        <a href="/student/liststudent">Back</a>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h4>Sửa thông tin sinh viên</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="/student/editstudent" method="POST">
+                        <input name="Id" value="@Model.Student.Id" />
+                        <div class="mb-3">
+                            @*<label>
+                                Loại sản phẩm
+                            </label>
+                            <select class="form-select" name="CategoryId">
+                                <option value="0">--- Lựa chọn ---</option>
+                                @foreach (var cate in Model.Categories)
+                                {
+                                    if (Model.Product.CategoryId == cate.Id)
+                                    {
+                                        <option value="@cate.Id" selected>@cate.Name</option>
+
+                                    }
+                                    else
+                                    {
+                                        <option value="@cate.Id">@cate.Name</option>
+
+                                    }
+                                }
+                            </select>*@
+                        </div>
+                        <div class="mb-3">
+                            <label>Student Code:</label>
+                            <input name="Code" value="@Model.Student.Code" disabled />
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Student Name:</label>
+                            <input name="Name" type="text" class="form-control" value="@Model.Student.Name" />
+                        </div>
+                        <div class="mb-3">
+                            <label>Address</label>
+                            <input name="Addr" type="text" class="form-control" value="@Model.Student.Addr" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Email</label>
+                            <input name="Email" type="text" class="form-control" value="@Model.Student.Email" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Phone</label>
+                            <input name="Phone" type="text" class="form-control" value="@Model.Student.Phone" />
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-success" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

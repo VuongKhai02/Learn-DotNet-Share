@@ -1,0 +1,48 @@
+﻿@model List<Category>
+@*
+    Layout: _layout
+*@
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h4>Thêm mới sản phẩm</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="/Product/AddProduct" method="POST">
+                        <div class="mb-3">
+                            <label>
+                                Loại sản phẩm
+                            </label>
+                            <select class="form-select" name="CategoryId">
+                                <option value="0">--- Lựa chọn ---</option>
+                                @foreach (var cate in Model)
+                                {
+                                    <option value="@cate.Id">@cate.Name</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label>Tên sản phẩm</label>
+                            <input name="Name" type="text" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                            <label>Giá bán</label>
+                            <input name="Price" type="text" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Đơn vị</label>
+                            <input name="Unit" type="text" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-success" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

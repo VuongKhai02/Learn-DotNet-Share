@@ -1,0 +1,60 @@
+﻿@model WorkWithDatabase_b3.ViewModel.ProducttViewModel
+@*
+    Layout: _layout
+*@
+
+@{
+    var priceConverted = (double)Model.Product.Price;
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h4>Sửa sản phẩm</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="/Product/EditProduct" method="POST">
+                        <input name="id"  value="@Model.Product.id" hidden/>
+                        <div class="mb-3">
+                            <label>
+                                Loại sản phẩm
+                            </label>
+                            <select class="form-select" name="CategoryId">
+                                <option value="0">--- Lựa chọn ---</option>
+                                @foreach (var cate in Model.Categories)
+                                {
+                                    if(Model.Product.CategoryId == cate.Id){
+                                        <option value="@cate.Id" selected>@cate.Name</option>
+
+                                    }
+                                    else{
+                                        <option value="@cate.Id">@cate.Name</option>
+
+                                    }
+                                }
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label>Tên sản phẩm</label>
+                            <input name="Name" type="text" class="form-control" value="@Model.Product.Name" />
+                        </div>
+                        <div class="mb-3">
+                            <label>Giá bán</label>
+                            <input name="Price" type="number" class="form-control" value="@priceConverted" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Đơn vị</label>
+                            <input name="Unit" type="text" class="form-control" value="@Model.Product.Unit" />
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-success" type="submit">Lưu</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
